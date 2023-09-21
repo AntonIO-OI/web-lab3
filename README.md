@@ -20,7 +20,10 @@
    - Я надіслав зверстану веб-сторінку електронною поштою, і переконайтесь в її коректному відображенні поштовою програмою Mozilla Thunderbird та одним з поштових інтерфейсів, таким як gmail.com
    - ![image](https://github.com/AntonIO-OI/web-lab3/assets/82289302/6cd88e75-73bc-492f-a3b8-34d65f574b60)
    - ![image](https://github.com/AntonIO-OI/web-lab3/assets/82289302/dd60f98c-cefa-4498-8e56-1d76cc7b8605)
-   - https://github.com/AntonIO-OI/web-lab3/assets/82289302/ef2ba739-15c1-46f6-aee5-f950febd15ad
+
+https://github.com/AntonIO-OI/web-lab3/assets/82289302/1e397a61-c942-436f-aff2-6208dcd5a2ba
+
+
 
 
 4. **Приклади веб-сторінок:**
