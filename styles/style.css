@@ -1,0 +1,191 @@
+body {
+  width: 100% !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+}
+
+[style*="Open Sans"] {
+  font-family: "Open Sans", arial, sans-serif !important;
+}
+
+img {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+table td {
+  border-collapse: collapse;
+}
+
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: lightblue;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: auto;
+
+  padding: 10px 30px;
+}
+
+.title {
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.title__inner {
+  max-width: 300px;
+  border-radius: 10px;
+  padding: 1px 10px;
+  background-color: white;
+}
+
+.menu {
+  width: 50%;
+  margin: auto 0;
+  text-align: end;
+  padding: 10px 20px;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__list > li {
+  margin: 5px 0;
+}
+
+.main {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: auto;
+}
+
+.left {
+  background-color: lightcoral;
+  width: 25%;
+}
+
+.left__inner {
+  padding: 10px 20px;
+}
+
+.top {
+  height: 30px;
+  text-align: end;
+  background-color: lightgreen;
+}
+
+.center-right {
+  background-color: lightcoral;
+  width: 25%;
+}
+
+.center-left {
+  width: 50%;
+}
+
+.center-left__inner,
+.center-right__inner {
+  padding: 10px 20px;
+}
+
+.right__inner {
+  width: 100%;
+}
+
+.footer {
+  background-color: lightblue;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: auto;
+}
+
+.description {
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.subtitle {
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.subtitle__inner {
+  min-width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  float: right;
+}
+
+.image {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header td {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .title__inner {
+    margin: 0 auto;
+  }
+
+  .menu__list {
+    padding: 0;
+  }
+
+  .main td,
+  .main th {
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .main th {
+    text-align: center;
+    padding: 20px 0 10px 0;
+  }
+
+  .footer td {
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .description__inner {
+    padding: 0 20px;
+  }
+
+  .subtitle__inner {
+    width: 60%;
+    text-align: center;
+    float: none !important;
+    margin: 0 auto;
+  }
+}

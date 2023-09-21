@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3 / Email page</title>
+  </head>
+  <body>
+    <style>
+      body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 100%;
+      }
+
+      [style*="Open Sans"] {
+        font-family: "Open Sans", arial, sans-serif !important;
+      }
+
+      img {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100% !important;
+        margin: 0;
+        padding: 0;
+        display: block;
+      }
+
+      table td {
+        border-collapse: collapse;
+      }
+
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+      }
+
+      .header {
+        background-color: lightblue;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        height: auto;
+
+        padding: 10px 30px;
+      }
+
+      .title {
+        width: 50%;
+        padding: 10px 20px;
+      }
+
+      .title__inner {
+        max-width: 300px;
+        border-radius: 10px;
+        padding: 1px 10px;
+        background-color: white;
+      }
+
+      .menu {
+        width: 50%;
+        margin: auto 0;
+        text-align: end;
+        padding: 10px 20px;
+      }
+
+      .menu__list {
+        list-style: none;
+      }
+
+      .menu__list > li {
+        margin: 5px 0;
+      }
+
+      .main {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        height: auto;
+      }
+
+      .left {
+        background-color: lightcoral;
+        width: 25%;
+      }
+
+      .left__inner {
+        padding: 10px 20px;
+      }
+
+      .top {
+        height: 30px;
+        text-align: end;
+        background-color: lightgreen;
+      }
+
+      .center-right {
+        background-color: lightcoral;
+        width: 25%;
+      }
+
+      .center-left {
+        width: 50%;
+      }
+
+      .center-left__inner,
+      .center-right__inner {
+        padding: 10px 20px;
+      }
+
+      .right__inner {
+        width: 100%;
+      }
+
+      .footer {
+        background-color: lightblue;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        height: auto;
+      }
+
+      .description {
+        width: 50%;
+        padding: 10px 20px;
+      }
+
+      .subtitle {
+        width: 50%;
+        padding: 10px 20px;
+      }
+
+      .subtitle__inner {
+        min-width: 150px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        float: right;
+      }
+
+      .image {
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        .header {
+          max-width: 100% !important;
+        }
+
+        .header td {
+          display: block !important;
+          width: 100% !important;
+          text-align: center !important;
+        }
+
+        .title {
+          padding: 10px 0 !important;
+        }
+
+        .menu {
+          padding: 10px 0 !important;
+        }
+
+        .title__inner {
+          max-width: 250px !important;
+          margin: 0 auto !important;
+        }
+
+        .menu__list {
+          padding: 0 !important;
+        }
+
+        .main td,
+        .main th {
+          display: block !important;
+          width: 100% !important;
+          padding: 30px 0 !important;
+        }
+
+        .main th {
+          text-align: center !important;
+          padding: 20px 0 10px 0 !important;
+        }
+
+        .footer td {
+          display: block !important;
+          width: 100% !important;
+          padding: 30px 0 !important;
+        }
+
+        .description__inner {
+          padding: 0 20px !important;
+        }
+
+        .subtitle__inner {
+          width: 60% !important;
+          text-align: center !important;
+          float: none !important;
+          margin: 0 auto !important;
+        }
+      }
+    </style>
+    <div class="container">
+      <!-- Header -->
+      <table class="header">
+        <tbody>
+          <tr>
+            <td class="title">
+              <div class="title__inner">
+                <h1>Default page</h1>
+              </div>
+            </td>
+            <td class="menu">
+              <ul class="menu__list">
+                <li>
+                  <a href="https://antonio-oi.github.io/web-lab2/"
+                    >Flexbox Page</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://antonio-oi.github.io/web-lab2/pages/grid.html"
+                    >Grid Page</a
+                  >
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Main -->
+      <table class="main">
+        <tbody>
+          <tr>
+            <td class="left" rowspan="2">
+              <div class="left__inner">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                  eaque alias a.
+                </p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Animi reiciendis, sint amet obcaecati molestiae optio iste
+                  vero odit dolore eaque? Accusamus aperiam laboriosam rem
+                  aliquid nostrum a laborum modi. Ullam provident fuga quod
+                  asperiores nobis, animi iure laboriosam eius facilis illo
+                  magni accusantium consequuntur inventore? Sapiente alias
+                  repellendus repudiandae suscipit?
+                </p>
+              </div>
+            </td>
+            <th class="top" colspan="4">
+              Lorem ipsum dolor sit amet consectetur.
+            </th>
+          </tr>
+          <tr>
+            <td class="center-left" colspan="3">
+              <div class="center-left__inner">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Iure, blanditiis aspernatur labore laudantium quidem ut
+                  corporis.
+                </p>
+                <img
+                  src="https://www.redfin.com/blog/wp-content/uploads/2021/07/Kitty1.jpg"
+                  alt="kitten"
+                  class="image"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, illo consequatur cum maxime quas consequuntur.
+                </p>
+              </div>
+            </td>
+            <td class="center-right">
+              <div class="center-right__inner">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                  est commodi aliquid placeat explicabo accusamus beatae iure
+                  tenetur neque aspernatur, minima et quis quas praesentium
+                  magnam obcaecati libero voluptas? Exercitationem!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  incidunt nam eaque, deserunt obcaecati quia ad excepturi iure
+                  unde corporis libero soluta, alias enim modi labore, magni
+                  distinctio maxime? Voluptatibus, at laboriosam?
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus reiciendis quaerat ullam.
+                </p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Footer -->
+      <table class="footer">
+        <tbody>
+          <tr>
+            <td class="description">
+              <div class="description__inner">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                  saepe corrupti numquam nemo, voluptatem maiores deleniti
+                  aliquid. Rerum sapiente, ducimus animi recusandae pariatur
+                  ipsam iste?
+                </p>
+              </div>
+            </td>
+            <td class="subtitle">
+              <div class="subtitle__inner">
+                <h3 class="subtitle__text">Lorem ipsum.</h3>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
