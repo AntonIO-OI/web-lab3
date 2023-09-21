@@ -23,7 +23,10 @@
 
 https://github.com/AntonIO-OI/web-lab3/assets/82289302/1e397a61-c942-436f-aff2-6208dcd5a2ba
 
-
-
-
 4. **Приклади веб-сторінок:**
+![antonio-oi github io_web-lab3_](https://github.com/AntonIO-OI/web-lab3/assets/82289302/0ccf8c56-75a5-4132-ae6c-10c794bfc4c3)
+![antonio-oi github io_web-lab3_ (1)](https://github.com/AntonIO-OI/web-lab3/assets/82289302/af39cdd3-3b7d-47f3-84b7-77dd3d468b26)
+![antonio-oi github io_web-lab3_ (2)](https://github.com/AntonIO-OI/web-lab3/assets/82289302/920a7cbd-1961-477a-8a9b-84b898b27957)
+![antonio-oi github io_web-lab3_ (3)](https://github.com/AntonIO-OI/web-lab3/assets/82289302/b6a8712c-6317-47cd-9c22-a1acf8726448)
+![antonio-oi github io_web-lab3_ (4)](https://github.com/AntonIO-OI/web-lab3/assets/82289302/da707e22-c32a-432e-a3a1-1aa510ff67c5)
+
